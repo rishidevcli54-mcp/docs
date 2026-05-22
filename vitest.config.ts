@@ -8,7 +8,7 @@ export default {
     // vitest doesn't account for tsconfig.json `paths` settings so we have to
     // manually set this alias to resolve our TS @-imports
     alias: {
-      '@/': new URL('./src/', import.meta.url).pathname,
+      '@/': new URL('./src/', import.meta.url).pathname,ramesh 
     },
 
     globalSetup: './src/tests/vitest.setup.ts',
